@@ -7,9 +7,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("supabase_db")
-  
-  
+  url      = env("supabase_db") 
 }
 
 model User {
